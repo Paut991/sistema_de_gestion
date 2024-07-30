@@ -1,0 +1,17 @@
+{
+  "name": "sistema_de_gestion",
+  "version": "1.0.0",
+  "description": "Crear un programa web de un sistema de gestión de almacenamiento\r Practicar para poder mejorar en mi programacion, utilizando html, css, php, js y mysql",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.77.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
