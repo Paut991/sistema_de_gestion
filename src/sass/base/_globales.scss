@@ -1,0 +1,67 @@
+/* Estilos globales */
+
+body {
+  font-family: $fuente-principal;
+  font-size: $tamanyo-normal;
+  color: $color-texto;
+  background-color: $color-fondo;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: $espacio-mediano;
+  font-weight: normal;
+  color: $color-primario;
+}
+
+p {
+  margin-bottom: $espacio-mediano;
+}
+
+a {
+  color: $color-primario;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+button {
+  font-family: $fuente-principal;
+  font-size: $tamaño-normal;
+  padding: $espacio-pequeño $espacio-mediano;
+  color: $color-texto-boton;
+  background-color: $color-boton;
+  border: none;
+  border-radius: $border-radius;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken($color-boton, 10%);
+  }
+}
+
+input,
+textarea {
+  font-family: $fuente-principal;
+  font-size: $tamaño-normal;
+  padding: $espacio-pequeño;
+  border: 1px solid $color-contenedores;
+  border-radius: $border-radius;
+  margin-bottom: $espacio-mediano;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 $espacio-mediano;
+}
