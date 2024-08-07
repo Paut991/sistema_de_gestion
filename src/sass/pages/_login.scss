@@ -1,0 +1,43 @@
+// src/sass/pages/_login.scss
+
+.contenedor-login {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  flex-direction: column;
+  img {
+    width: 20rem;
+    height: 20rem;
+  }
+}
+.contenedor-formulario {
+  background-color: $color-contenedores;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 25rem;
+  border-radius: $border-radius;
+}
+.formulario-login {
+  display: flex;
+  flex-direction: column;
+  label {
+    display: flex;
+    justify-content: center;
+  }
+  button {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    a {
+      text-decoration: none;
+    }
+  }
+}
+footer {
+  background-color: $color-contenedores;
+  font-size: $tamanyo-pequenya;
+  margin-top: 15.9rem;
+  p {
+    text-align: center;
+  }
+}

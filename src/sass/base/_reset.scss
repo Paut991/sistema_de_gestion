@@ -19,7 +19,6 @@ body {
 body {
   margin: 0;
   padding: 0;
-  background-color: $color-fondo;
 }
 
 img,
@@ -27,7 +26,6 @@ picture,
 video,
 canvas,
 svg {
-  display: block;
   max-width: 100%;
 }
 
@@ -41,7 +39,6 @@ select {
 
 a {
   text-decoration: none;
-  color: inherit;
 }
 
 ul,

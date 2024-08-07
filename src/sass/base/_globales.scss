@@ -4,7 +4,6 @@ body {
   font-family: $fuente-principal;
   font-size: $tamanyo-normal;
   color: $color-texto;
-  background-color: $color-fondo;
   margin: 0;
   padding: 0;
   line-height: 1.6;
@@ -18,15 +17,16 @@ h5,
 h6 {
   margin-bottom: $espacio-mediano;
   font-weight: normal;
-  color: $color-primario;
+  color: $color-titulo;
 }
 
 p {
   margin-bottom: $espacio-mediano;
+  color: $color-texto;
 }
 
 a {
-  color: $color-primario;
+  color: $color-texto;
   text-decoration: none;
 
   &:hover {
@@ -36,8 +36,8 @@ a {
 
 button {
   font-family: $fuente-principal;
-  font-size: $tamaño-normal;
-  padding: $espacio-pequeño $espacio-mediano;
+  font-size: $tamanyo-normal;
+  padding: $espacio-pequenyo $espacio-mediano;
   color: $color-texto-boton;
   background-color: $color-boton;
   border: none;
@@ -52,8 +52,8 @@ button {
 input,
 textarea {
   font-family: $fuente-principal;
-  font-size: $tamaño-normal;
-  padding: $espacio-pequeño;
+  font-size: $tamanyo-normal;
+  padding: $espacio-pequenyo;
   border: 1px solid $color-contenedores;
   border-radius: $border-radius;
   margin-bottom: $espacio-mediano;

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagina Principal</title>
+    <link rel="stylesheet" href="../css/main.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="wrapper">
+        <div class="logo">
+          <a href="home.html">
+            <img src="../assets/s_g_a_black.png" alt="Logo" />
+          </a>
+        </div>
+        <input type="radio" name="slider" id="menu-btn" />
+        <input type="radio" name="slider" id="close-btn" />
+
+        <ul class="nav-links">
+          <label for="close-btn" class="btn close-btn"
+            ><i class="fas fa-times"></i
+          ></label>
+
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+
+          <li>
+            <a href="#" class="desktop-item">Productos</a>
+            <input type="checkbox" id="showDrop" />
+
+            <ul class="drop-menu">
+              <li><a href="#">Ver Productos</a></li>
+              <li><a href="#">Crear Productos</a></li>
+              <li><a href="#">Actualizar Producto</a></li>
+              <li><a href="#">Eliminar Producto</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#" class="desktop-item">Almacén</a>
+            <input type="checkbox" id="showMega" />
+            <label for="showMega" class="mobile-item">Almacén</label>
+            <div class="mega-box">
+              <div class="content">
+                <div class="row">
+                  <img src="../assets/s_g_a.png" alt="" />
+                </div>
+                <div class="row">
+                  <header>Gestión</header>
+                  <ul class="mega-links">
+                    <li><a href="#">Pedidos</a></li>
+                    <li><a href="#">Envíos</a></li>
+                    <li><a href="#">Localización Almacén</a></li>
+                    <li><a href="#">Historial Stock</a></li>
+                  </ul>
+                </div>
+
+                <div class="row">
+                  <header>Reportes</header>
+                  <ul class="mega-links">
+                    <li><a href="#">Facturas</a></li>
+                    <li><a href="#">Clientes</a></li>
+                    <li><a href="#">Proveedores</a></li>
+                    <li><a href="#">Devoluciones</a></li>
+                  </ul>
+                </div>
+
+                <div class="row">
+                  <header>Configuración</header>
+                  <ul class="mega-links">
+                    <li><a href="#">Usuarios</a></li>
+                    <li><a href="#">Roles de Usuario</a></li>
+                    <li><a href="#">Preferencias del Sistema</a></li>
+                  </ul>
+                </div>
+
+                <div class="row">
+                  <header>Ayuda</header>
+                  <ul class="mega-links">
+                    <li><a href="#">Documentacion</a></li>
+                    <li><a href="#">Soporte Técnico</a></li>
+                    <li><a href="#">FAQ</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li><a href="#">Feedback</a></li>
+        </ul>
+
+        <label for="menu-btn" class="btn menu-btn"
+          ><i class="fas fa-bars"></i
+        ></label>
+      </div>
+    </nav>
+  </body>
+</html>
